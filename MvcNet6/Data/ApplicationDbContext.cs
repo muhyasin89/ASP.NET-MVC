@@ -10,10 +10,6 @@ namespace MvcNet6.Data
             
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-			base.OnModelCreating(modelBuilder);
-		}
 
 		public DbSet<Category> Categories { get; set; }
         
